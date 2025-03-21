@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-
-  /**main function must return 0
-   * puts outputs astring and a newline after
-   */
+/**main function must return 0
+ * puts outputs astring and a newline after
+ */
 
     int main(void)
     {
