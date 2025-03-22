@@ -4,7 +4,7 @@
  *
  * description: prints a quote to the standard error output
  *
- * return: 1 error code
+ * return: 1 showing one error occured
  */
 int main(void)
 {
