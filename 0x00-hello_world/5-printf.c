@@ -5,7 +5,7 @@
  *
  *description:outputs a string using printf
  *
- *return: always 0 (success)
+ *Return: 0 if program is a success
  */
 int main(void)
 {
