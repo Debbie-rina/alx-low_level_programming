@@ -8,9 +8,10 @@
  * Return:Always 0 (success)
  */
 int main (void)
-	char letter;
 {
-	for(letter 'a';letter <= 'z'; letter++)
+	char letter;
+
+	for(letter = 'a'; letter <= 'z'; letter++)
 {
 	if (letter == 'q' || letter == 'e')
 		continue;
