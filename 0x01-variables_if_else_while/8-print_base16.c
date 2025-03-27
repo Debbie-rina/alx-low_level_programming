@@ -13,9 +13,8 @@ int main(void)
 {
 	int hex;
 
-	for(hex = 0; hex < 16; hex++)
-	
-	putchar((hex < 10)? (hex + '0'):(hex - 10 + 'a'));
+	for (hex = 0; hex < 16; hex++)
+	putchar((hex < 10) ? (hex + '0') : (hex - 10 + 'a'));
 
 		putchar('\n');
 
