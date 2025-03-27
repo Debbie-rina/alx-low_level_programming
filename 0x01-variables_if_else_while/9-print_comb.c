@@ -12,7 +12,8 @@
 
 int main(void)
 {
-	int des; 
+	int des;
+       	
 	for (des = 0; des <= 9; des++)
 	{
 		putchar(des + '0');
