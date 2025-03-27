@@ -13,7 +13,6 @@
 int main(void)
 {
 	int des; 
-
 	for (des = 0; des <= 9; des++)
 	{
 		putchar(des + '0');
@@ -23,9 +22,8 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-		
 	}
-	putchar('$');
+	putchar('\n');
 	return (0);
 
 }
