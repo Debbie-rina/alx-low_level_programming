@@ -2,16 +2,16 @@
 /**
  * print_alphabet x10 - prints the alphabet a-z 10 times in lowercase
  *
- * Description:uses nested loops to print a-z 10 times
+ * Description: uses nested loops to print a-z 10 times
  *
- * Return:void
+ * Return: void
  **/
 void print_alphabet_x10(void)
 {
 	int i;
 	char c;
 
-		for (i = 0; i <= 10; i++)
+		for (i = 0; i < 10; i++)
 		{
 			c = 'a';
 			while(c <= 'z')
