@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-* Main - Entry point
 *
 * Description: Prints all letters in the alphabet in lowercase 
 *
@@ -8,16 +7,9 @@
 **/
 void print_alphabet(void)
 {
-    char c = 'a';
+	char c = 'a';
 
-    while (c <= 'z')
-        _putchar(c++);  // <-- First and only loop use of _putchar
-
-    _putchar('\n');     // <-- Second use of _putchar for newline
-}
-
-int main(void)
-{
-    print_alphabet();
-    return 0;
+		while (c <= 'z')
+		_putchar(c++);
+		_putchar('\n');   
 }
