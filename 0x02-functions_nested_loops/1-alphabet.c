@@ -1,11 +1,12 @@
 #include "main.h"
 /**
-*
-* Description:print_alphabet prints all letters in the
-* alphabet in lowercase 
-*
-* Return: Always 0
-**/
+ * print_alphabet - prints all lowercase alphabets
+ *
+ * Description:print_alphabet prints all letters in the
+ * alphabet in lowercase
+ *
+ * Return: void
+ **/
 void print_alphabet(void)
 {
 	char c = 'a';
