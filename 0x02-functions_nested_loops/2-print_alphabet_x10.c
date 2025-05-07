@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet x10 - prints the alphabet a-z 10 times in lowercase
+ * print_alphabet_x10 - prints the alphabet a-z 10 times in lowercase
  *
  * Description: uses nested loops to print a-z 10 times folowed by a newline
  *
